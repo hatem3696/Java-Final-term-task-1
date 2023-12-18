@@ -5,9 +5,9 @@
 <html>
 <head></head>
 <body>
-    <h3>Registration Page</h3>
+    <h3>Edit Student</h3>
 
-    <form:form method="post" action="store" modelAttribute="student">
+    <form:form method="post" action="students/{id}/edit" modelAttribute="student">
 
         <label>Id</label>
         <form:input path="id" id="id"/>
@@ -49,7 +49,7 @@
 
         <br><br>
 
-        <input type="submit" value="Register" />
+        <input type="submit" value="Submit" />
 
     </form:form>
 
